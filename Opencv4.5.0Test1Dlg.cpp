@@ -102,6 +102,7 @@ BOOL COpencv450Test1Dlg::OnInitDialog()
 
 	// TODO: Add extra initialization here
 	CString str;
+//	str.Format(L"OPENCV VERSION = %s", (LPCTSTR)CV_VERSION);
 	str.Format(L"OPENCV VERSION = %s", (LPCTSTR) CV_VERSION);
 	AfxMessageBox(str);
 
